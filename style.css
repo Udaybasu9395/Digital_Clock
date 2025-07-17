@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock-box{
+    height: 300px;
+    width: 750px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+#showDate{
+    height:120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 63px;
+    color: aqua;
+}
+
+.showTime{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 144px;
+    color:#fff;
+}
